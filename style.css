@@ -276,3 +276,20 @@ body {
     text-align: center;
   }
 }
+.responsive-text{
+  color: #6d3510;
+  font-weight: bold;
+}
+@media (min-width:760px) {
+  .responsive-text{
+    padding-left: 33%;
+  }
+
+}
+@media (max-width:576px) {
+  .responsive-text{
+    font-size: 57px;
+    text-align: center;
+  }
+  
+}
