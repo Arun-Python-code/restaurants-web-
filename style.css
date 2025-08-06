@@ -276,20 +276,35 @@ body {
     text-align: center;
   }
 }
-.responsive-text{
+.responsive-text {
   color: #6d3510;
   font-weight: bold;
 }
-@media (min-width:760px) {
-  .responsive-text{
+@media (min-width: 760px) {
+  .responsive-text {
     padding-left: 33%;
   }
-
 }
-@media (max-width:576px) {
-  .responsive-text{
+@media (max-width: 576px) {
+  .responsive-text {
     font-size: 57px;
     text-align: center;
   }
-  
+}
+.map-response {
+  padding-top: 50px;
+  width: 620px;
+}
+@media (max-width: 567px) {
+  .map-response {
+    width: 410px;
+  }
+}
+.contact-details {
+  padding-left: 180px;
+}
+@media (max-width: 567px) {
+  .contact-details {
+    padding-left: 40px;
+  }
 }
